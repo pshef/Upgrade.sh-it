@@ -1,4 +1,12 @@
 # Upgrade.sh-it
-A very simple upgrade script I wrote for my computer since I got tired of the app shop not upgrading everything and leaving me with an annoying notification. I currently have both apt and flatpak on my system, and this will upgrade them both, and yes I know there's redundancies.
+![](https://github.com/pshef/Upgrade.sh-it/blob/main/Upgrade.shit.png)
+
+On my computer I'm getting application update notifications it seems like every few hours. I can't complain about that because my software stays up-to-date, but wow is that notification annoying! So to save a little bit of time, I wrote up this very simple script that runs through `apt` and `flatpak` to update and upgrade my computer all at once. There's nothing special about it, but it saves me a few keystrokes (that I've since wasted writing this README).
 
 To run, make upgrade.sh script executable and then run it. It should prompt for root password and then proceed as needed.
+```
+chmod + x upgrade.sh
+./upgrade.sh
+```
+
+I also moved it into `/bin` so it would be in my $PATH and could be ran from anywhere (hence when it tells me what my `pwd` is).
