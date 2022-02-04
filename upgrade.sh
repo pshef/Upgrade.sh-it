@@ -12,7 +12,6 @@ echo -e "If you're running this, you're probably seeing an update notification. 
 
 # apt repository upgrades
 sudo apt update -qq
-sudo apt upgrade -y --allow-downgrades -qq
 sudo apt full-upgrade -y --allow-downgrades -qq
 sudo apt dist-upgrade -y --allow-downgrades -qq
 sudo apt autoremove -y -qq
