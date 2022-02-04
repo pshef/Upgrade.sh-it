@@ -9,4 +9,4 @@ chmod + x upgrade.sh
 ./upgrade.sh
 ```
 
-I also moved it into `/bin` so it would be in my $PATH and could be ran from anywhere (hence when it tells me what my `pwd` is).
+I also moved it into `/bin` so it would be in my $PATH and could be ran from anywhere (hence why it tells me what my `pwd` is).
